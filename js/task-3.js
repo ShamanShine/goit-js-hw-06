@@ -1,9 +1,8 @@
 class StringBuilder {
   #value;
-  initialValue;
-  constructor(value, initialValue) {
-    this.#value = value;
-    this.initialValue = initialValue;
+
+  constructor(initialValue) {
+    this.#value = initialValue;
   }
   getValue() {
     return this.#value;
